@@ -1,7 +1,9 @@
 # SISTEMA DE CONSULTA DE TEMPERATURA POR CEP COM OBSERVABILIDADE
 
-service_input: Recebe um CEP, valida e encaminha ao service_orchestrator.
-service_orchestrator: Consulta a localização e o clima do CEP e retorna as temperaturas em Celsius, Fahrenheit e Kelvin.
+ - service_input: Recebe um CEP, valida e encaminha ao service_orchestrator.
+
+
+ - service_orchestrator: Consulta a localização e o clima do CEP e retorna as temperaturas em Celsius, Fahrenheit e Kelvin.
 
 
 # Tecnologias Utilizadas
